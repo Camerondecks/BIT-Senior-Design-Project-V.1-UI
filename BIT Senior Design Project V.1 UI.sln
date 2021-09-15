@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BIT Senior Design Project V.1 UI", "BIT Senior Design Project V.1 UI\BIT Senior Design Project V.1 UI.csproj", "{969EE1C8-6232-4F00-B5AE-DA28FFA0E9D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{969EE1C8-6232-4F00-B5AE-DA28FFA0E9D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{969EE1C8-6232-4F00-B5AE-DA28FFA0E9D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969EE1C8-6232-4F00-B5AE-DA28FFA0E9D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969EE1C8-6232-4F00-B5AE-DA28FFA0E9D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DFB4FD4-BA51-4588-94A7-B10078E026DF}
+	EndGlobalSection
+EndGlobal
