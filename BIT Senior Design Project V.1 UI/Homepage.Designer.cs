@@ -29,6 +29,7 @@ namespace BIT_Senior_Design_Project_V._1_UI
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Homepage));
             this.btnInventory = new System.Windows.Forms.Button();
             this.btnCustomerInfo = new System.Windows.Forms.Button();
             this.btnMaterials = new System.Windows.Forms.Button();
@@ -37,56 +38,88 @@ namespace BIT_Senior_Design_Project_V._1_UI
             // 
             // btnInventory
             // 
-            this.btnInventory.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInventory.BackColor = System.Drawing.Color.Transparent;
+            this.btnInventory.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnInventory.FlatAppearance.BorderSize = 2;
+            this.btnInventory.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btnInventory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnInventory.Font = new System.Drawing.Font("Microsoft YaHei UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInventory.ForeColor = System.Drawing.SystemColors.MenuText;
             this.btnInventory.Location = new System.Drawing.Point(454, 2);
             this.btnInventory.Name = "btnInventory";
-            this.btnInventory.Size = new System.Drawing.Size(444, 266);
+            this.btnInventory.Size = new System.Drawing.Size(444, 255);
             this.btnInventory.TabIndex = 1;
             this.btnInventory.Text = "Inventory";
-            this.btnInventory.UseVisualStyleBackColor = true;
+            this.btnInventory.UseVisualStyleBackColor = false;
+            this.btnInventory.Click += new System.EventHandler(this.btnInventory_Click);
             // 
             // btnCustomerInfo
             // 
-            this.btnCustomerInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCustomerInfo.Location = new System.Drawing.Point(0, 2);
+            this.btnCustomerInfo.BackColor = System.Drawing.Color.Transparent;
+            this.btnCustomerInfo.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnCustomerInfo.FlatAppearance.BorderSize = 2;
+            this.btnCustomerInfo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btnCustomerInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCustomerInfo.Font = new System.Drawing.Font("Microsoft YaHei UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCustomerInfo.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.btnCustomerInfo.Location = new System.Drawing.Point(4, 2);
             this.btnCustomerInfo.Name = "btnCustomerInfo";
-            this.btnCustomerInfo.Size = new System.Drawing.Size(444, 266);
+            this.btnCustomerInfo.Size = new System.Drawing.Size(444, 255);
             this.btnCustomerInfo.TabIndex = 2;
             this.btnCustomerInfo.Text = "Customer Information";
-            this.btnCustomerInfo.UseVisualStyleBackColor = true;
+            this.btnCustomerInfo.UseVisualStyleBackColor = false;
             this.btnCustomerInfo.Click += new System.EventHandler(this.button2_Click);
             // 
             // btnMaterials
             // 
-            this.btnMaterials.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMaterials.Location = new System.Drawing.Point(0, 274);
+            this.btnMaterials.BackColor = System.Drawing.Color.Transparent;
+            this.btnMaterials.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnMaterials.FlatAppearance.BorderSize = 2;
+            this.btnMaterials.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btnMaterials.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMaterials.Font = new System.Drawing.Font("Microsoft YaHei UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMaterials.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.btnMaterials.Location = new System.Drawing.Point(4, 263);
             this.btnMaterials.Name = "btnMaterials";
-            this.btnMaterials.Size = new System.Drawing.Size(444, 256);
+            this.btnMaterials.Size = new System.Drawing.Size(444, 253);
             this.btnMaterials.TabIndex = 3;
             this.btnMaterials.Text = "Materials";
-            this.btnMaterials.UseVisualStyleBackColor = true;
+            this.btnMaterials.UseVisualStyleBackColor = false;
+            this.btnMaterials.Click += new System.EventHandler(this.btnMaterials_Click);
             // 
             // btnSales
             // 
-            this.btnSales.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSales.Location = new System.Drawing.Point(454, 274);
+            this.btnSales.BackColor = System.Drawing.Color.Transparent;
+            this.btnSales.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnSales.FlatAppearance.BorderSize = 2;
+            this.btnSales.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btnSales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSales.Font = new System.Drawing.Font("Microsoft YaHei UI", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSales.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.btnSales.Location = new System.Drawing.Point(454, 263);
             this.btnSales.Name = "btnSales";
-            this.btnSales.Size = new System.Drawing.Size(444, 256);
+            this.btnSales.Size = new System.Drawing.Size(444, 253);
             this.btnSales.TabIndex = 4;
             this.btnSales.Text = "Sales";
-            this.btnSales.UseVisualStyleBackColor = true;
+            this.btnSales.UseVisualStyleBackColor = false;
+            this.btnSales.Click += new System.EventHandler(this.btnSales_Click);
             // 
-            // Form1
+            // Homepage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(900, 531);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(902, 517);
             this.Controls.Add(this.btnSales);
             this.Controls.Add(this.btnMaterials);
             this.Controls.Add(this.btnCustomerInfo);
             this.Controls.Add(this.btnInventory);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.Name = "Homepage";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Broad Force Archery";
             this.ResumeLayout(false);
 
         }
