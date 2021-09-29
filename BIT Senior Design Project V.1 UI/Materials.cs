@@ -16,5 +16,10 @@ namespace BIT_Senior_Design_Project_V._1_UI
         {
             InitializeComponent();
         }
+
+        private void lblMaterialsHeading_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
