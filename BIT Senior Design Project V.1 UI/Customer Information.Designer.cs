@@ -41,6 +41,7 @@ namespace BIT_Senior_Design_Project_V._1_UI
             // 
             // lblCustomerInfo
             // 
+            this.lblCustomerInfo.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblCustomerInfo.AutoSize = true;
             this.lblCustomerInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCustomerInfo.Location = new System.Drawing.Point(456, 24);
@@ -52,47 +53,50 @@ namespace BIT_Senior_Design_Project_V._1_UI
             // 
             // dataGridView1
             // 
+            this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.CustomerName,
             this.Address,
             this.Phone,
             this.Email});
-            this.dataGridView1.Location = new System.Drawing.Point(356, 390);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.dataGridView1.Location = new System.Drawing.Point(3, 105);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(6);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 82;
-            this.dataGridView1.Size = new System.Drawing.Size(888, 133);
+            this.dataGridView1.Size = new System.Drawing.Size(1595, 755);
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // CustomerName
             // 
-            this.CustomerName.HeaderText = "CustomerInformation";
+            this.CustomerName.HeaderText = "Name";
             this.CustomerName.MinimumWidth = 10;
             this.CustomerName.Name = "CustomerName";
-            this.CustomerName.Width = 200;
+            this.CustomerName.Width = 113;
             // 
             // Address
             // 
             this.Address.HeaderText = "Address";
             this.Address.MinimumWidth = 10;
             this.Address.Name = "Address";
-            this.Address.Width = 200;
+            this.Address.Width = 136;
             // 
             // Phone
             // 
             this.Phone.HeaderText = "Phone";
             this.Phone.MinimumWidth = 10;
             this.Phone.Name = "Phone";
-            this.Phone.Width = 200;
+            this.Phone.Width = 119;
             // 
             // Email
             // 
             this.Email.HeaderText = "Email";
             this.Email.MinimumWidth = 10;
             this.Email.Name = "Email";
-            this.Email.Width = 200;
+            this.Email.Width = 110;
             // 
             // CustomerInformation
             // 
@@ -102,7 +106,7 @@ namespace BIT_Senior_Design_Project_V._1_UI
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.lblCustomerInfo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "CustomerInformation";
             this.Text = "Customer Information";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

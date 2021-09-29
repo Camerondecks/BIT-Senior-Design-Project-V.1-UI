@@ -35,6 +35,7 @@ namespace BIT_Senior_Design_Project_V._1_UI
             // 
             // lblMaterialsHeading
             // 
+            this.lblMaterialsHeading.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblMaterialsHeading.AutoSize = true;
             this.lblMaterialsHeading.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMaterialsHeading.Location = new System.Drawing.Point(687, 22);
@@ -51,7 +52,7 @@ namespace BIT_Senior_Design_Project_V._1_UI
             this.ClientSize = new System.Drawing.Size(1600, 865);
             this.Controls.Add(this.lblMaterialsHeading);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Materials";
             this.Text = "Materials";
             this.ResumeLayout(false);
