@@ -39,7 +39,7 @@ namespace BIT_Senior_Design_Project_V._1_UI
             // 
             // txtEnterPassword
             // 
-            this.txtEnterPassword.Location = new System.Drawing.Point(789, 474);
+            this.txtEnterPassword.Location = new System.Drawing.Point(803, 474);
             this.txtEnterPassword.Name = "txtEnterPassword";
             this.txtEnterPassword.Size = new System.Drawing.Size(266, 31);
             this.txtEnterPassword.TabIndex = 0;
@@ -63,6 +63,7 @@ namespace BIT_Senior_Design_Project_V._1_UI
             this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // pictureBox1
             // 

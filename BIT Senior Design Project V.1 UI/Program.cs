@@ -16,7 +16,7 @@ namespace BIT_Senior_Design_Project_V._1_UI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Homepage());
+            Application.Run(new Login());
         }
     }
 }
