@@ -31,6 +31,7 @@ namespace BIT_Senior_Design_Project_V._1_UI
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sales));
             this.lblSalesHeader = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblSalesHeader
@@ -44,14 +45,24 @@ namespace BIT_Senior_Design_Project_V._1_UI
             this.lblSalesHeader.TabIndex = 0;
             this.lblSalesHeader.Text = "Sales";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(736, 408);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(173, 25);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Sales Test Label";
+            // 
             // Sales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1600, 865);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblSalesHeader);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Sales";
             this.Text = "Sales";
             this.ResumeLayout(false);
@@ -62,5 +73,6 @@ namespace BIT_Senior_Design_Project_V._1_UI
         #endregion
 
         private System.Windows.Forms.Label lblSalesHeader;
+        private System.Windows.Forms.Label label1;
     }
 }
